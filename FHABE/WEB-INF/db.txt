@@ -1,0 +1,14 @@
+create database fhabe;
+use fhabe;
+create table newuser(username varchar(50),password varchar(50),usertype varchar(50),contactno varchar(12),address varchar(50));
+
+create table Createprofile(name varchar(50),dob date,age varchar(50),gender varchar(10),SSno varchar(50),profile_id int,username varchar(50),problem varchar(50));
+
+create table access_structure(username varchar(50),personal_structure varchar(300),medical_structure varchar(300),
+pprivate_key longblob,ppublic_key longblob,mprivate_key longblob,mpublic_key longblob,transport_node varchar(50));
+
+create table history(username varchar(50),history_data longblob,file_name varchar(50),upload_date date);
+
+
+
+
